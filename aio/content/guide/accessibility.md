@@ -8,7 +8,7 @@ Además, diseñar una aplicación para que sea más accesible, normalmente mejor
 Para una introducción en profundidad a los problemas y técnicas sobre el diseño de aplicaciones accesibles, puede consultar la sección de [Accesibilidad](https://developers.google.com/web/fundamentals/accessibility/#what_is_accessibility) de Google [Fundamentos Web](https://developers.google.com/web/fundamentals/).
 
 Esta página habla de las mejores prácticas para diseñar aplicaciones en Angular que funcionan
-bien para todos los usuarios, incluyendo aquéllos que necesitan tecnologías de apoyo.
+bien para todos los usuarios, incluyendo aquellos que necesitan tecnologías de apoyo.
 
 <div class="alert is-helpful">
 
@@ -20,7 +20,7 @@ bien para todos los usuarios, incluyendo aquéllos que necesitan tecnologías de
 
 Crear una web accesible a menudo implica establecer los [atributos ARIA](https://developers.google.com/web/fundamentals/accessibility/semantics-aria)
 para proporcionar la semántica que, de otro modo, podría no estar presente.
-Usa la plantilla de sintaxis del [enlace de atributos](attribute binding) (guide/attribute-binding) para controlar los valores de los atributos relacionados con la accesibilidad.
+Dentro de la plantilla puedes usar [enlaces de atributos](https://docs.angular.lat/guide/attribute-binding) para controlar los valores de aquellos atributos relacionados con la accesibilidad.
 
 Para enlazar los atributos ARIA en Angular, debes usar el prefijo `attr.`, ya que la especificación ARIA
 depende de los atributos HTML y no de las propiedades de los elementos del DOM.
