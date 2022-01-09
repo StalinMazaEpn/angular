@@ -12,8 +12,8 @@ Para ver la aplicación de muestra utilizada en este tema, consulte <live-exampl
 
 </div>
 
-Angular tiene incorporados pipes para la transformación de datos típicos, incluyendo transformaciones para la internacionalización (i18n), que utilizan información de la configuración regional para formatear los datos.
-Los siguientes son pipes integradas de uso común para formatear datos:
+Angular tiene incorporados pipes para las típicas transformaciones de datos, incluyendo transformaciones para la internacionalización (i18n), que utilizan información de la configuración regional para formatear los datos.
+Los siguientes son pipes integrados de uso común para formatear datos:
 
 - [`DatePipe`](api/common/DatePipe): Formatea un valor de fecha de acuerdo a las reglas locales.
 - [`UpperCasePipe`](api/common/UpperCasePipe): Transforma todo el texto a mayúscula.
